@@ -231,7 +231,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .navbar {
@@ -309,22 +309,20 @@ a:hover {
     z-index: 2;
 }
 .row{
-    text-align: center;
-   
+    text-align:center;
 }
-#social{
-    display: flex;
-    justify-content:space-between;
-
+#row{
+    text-align:left;
 }
 .text5{
-    color: rgb(153, 154, 156);
+    font-size: 16px;
+    color: rgb(94, 118, 168);
     margin-left: 25px;
     margin-right: 25px;
     line-height: 25px;
 }
 .texts{
-    color:rgb(117, 117, 119);
+    color:rgb(38, 38, 134);
 }
 h2{
     font-size: 20px;
@@ -631,28 +629,16 @@ a {
     font-size: 36px;
 }
 
-.statement-bloc-text {
-    line-height: 26px;
-    font-style: italic;
-    font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
-    max-width: 520px;
-    margin: auto auto auto auto;
-}
+
 
 p {
-    font-size: 12px;
+    font-size: 16px;
+    color: #464444;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-}
-
-.h1{
-    font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -666,7 +652,12 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+}
+.text-center p{
+    color: white;
 }
 
 h2 {
@@ -677,7 +668,7 @@ h2 {
 h3 {
     font-size: 15px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 700px;
     color: #333333!important;
 }
 
@@ -686,15 +677,6 @@ h3 {
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
-
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
-}
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -746,11 +728,13 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color:white;
+    font-size: 14px;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
+    width: 200px;
     color: #FFFFFF!important;
 }
 
@@ -858,6 +842,7 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+    
 }
 
 @media (max-width: 767px) {
@@ -924,7 +909,7 @@ h4 {
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        width: 180px;
     }
     .nav-invert .navbar-header {
         float: none;
@@ -942,6 +927,7 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+
     }
     .bloc-sm,
     .bloc-md {
